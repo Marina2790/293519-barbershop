@@ -56,18 +56,18 @@
       <form action="#" method="post">
         <!--сделать ссылку на сервер -->
         <h2 class="name checkbox">Производители:</h2>
-        <input type="checkbox" name="baxter of california" id="baxter of california-field" checked>
-        <label for="baxter of california-field">baxter of california</label><br>
-        <input type="checkbox" name="mr natty" id="mr natty-field">
-        <label for="mr natty-field">mr natty</label><br>
+        <input type="checkbox" name="baxter of california" id="baxter-field" checked>
+        <label for="baxter-field">baxter of california</label><br>
+        <input type="checkbox" name="mr natty" id="natty-field">
+        <label for="natty-field">mr natty</label><br>
         <input type="checkbox" name="suavecito" id="suavecito-field" checked>
         <label for="suavecito-field">suavecito</label><br>
-        <input type="checkbox" name="malin+goetz" id="malin+goetz-field">
-        <label for="malin+goetz-field">malin+goetz</label><br>
-        <input type="checkbox" name="murray's" id="murray's-field">
-        <label for="murray's-field">murray's</label><br>
-        <input type="checkbox" name="american crew" id="american crew-field" checked>
-        <label for="american crew-field">american crew</label>
+        <input type="checkbox" name="malin+goetz" id="malin-field">
+        <label for="malin-field">malin+goetz</label><br>
+        <input type="checkbox" name="murray's" id="murray-field">
+        <label for="murray-field">murray's</label><br>
+        <input type="checkbox" name="american crew" id="american-field" checked>
+        <label for="american-field">american crew</label>
 
         <h2 class="name radio">Группы товаров:</h2>
         <label>
@@ -85,15 +85,17 @@
           Аксессуары
         </label>
         <br>
-        <button class="btn filters" type="button">Показать</button>
+        <button class="btn" type="submit">Показать</button>
       </form>
     </div>
     <div class="catalog">
       <div class="product">
         <div class="product-item">
-          <img src="http://placehold.it/150x100">
+          <a href="#">
+            <img src="http://placehold.it/150x100" alt="Набор для путешествий">
+          </a>
           <div class="product-description">
-            <span>Набор для путешествий</span> <br>
+            <a href="#">Набор для путешествий</a> <br>
             <span>«Baxter of California»</span>
           </div>
           <div class="product-price">
@@ -102,9 +104,11 @@
           </div>
         </div>
         <div class="product-item">
-          <img src="http://placehold.it/150x100">
+          <a href="#">
+            <img src="http://placehold.it/150x100" alt="Увлажняющий кондиционер">
+          </a>
           <div class="product-description">
-            <span>Увлажняющий кондиционер </span> <br>
+            <a href="#">Увлажняющий кондиционер </a> <br>
             <span>«Baxter of California»</span>
           </div>
           <div class="product-price">
@@ -113,9 +117,11 @@
           </div>
         </div>
         <div class="product-item">
-          <img src="http://placehold.it/150x100">
+          <a href="#">
+            <img src="http://placehold.it/150x100" alt="Гель для волос">
+          </a>
           <div class="product-description">
-            <span>Гель для волос </span> <br>
+            <a href="#">Гель для волос</a> <br>
             <span>«suavecito»</span>
           </div>
           <div class="«product-price">
@@ -124,23 +130,74 @@
           </div>
         </div>
         <div class="product-item">
-          <img src="http://placehold.it/150x100">
+          <a href="#">
+            <img src="http://placehold.it/150x100" alt="Глина для укладки волос">
+          </a>
           <div class="product-description">
-            <span>Гель для волос </span> <br>
-            <span>«suavecito»</span>
+            <a href="#">Глина для укладки волос</a> <br>
+            <span>«American crew»</span>
           </div>
           <div class="«product-price">
-            <span>750руб.</span>
+            <span>500руб.</span>
             <a class="btn" href="#">Купить</a>
           </div>
         </div>
-
+        <div class="product-item">
+          <a href="#">
+            <img src="http://placehold.it/150x100" alt="Гель для волос">
+          </a>
+          <div class="product-description">
+            <a href="#">Гель для волос</a> <br>
+            <span>«american crew»</span>
+          </div>
+          <div class="«product-price">
+            <span>300руб.</span>
+            <a class="btn" href="#">Купить</a>
+          </div>
+        </div>
+        <div class="product-item">
+          <a href="#">
+            <img src="http://placehold.it/150x100" alt="Набор для бритья">
+          </a>
+          <div class="product-description">
+            <a href="#">Набор для бритья</a> <br>
+            <span>«Baxter of California»</span>
+          </div>
+          <div class="«product-price">
+            <span>300руб.</span>
+            <a class="btn" href="#">Купить</a>
+          </div>
+        </div>
       </div>
     </div>
-
-
-
-
-
   </main>
-</body>
+  <div class="container">
+    <div class="paginator">
+      <a href="#1">1</a>
+      <a href="#2">2</a>
+      <a href="#3">3</a>
+      <a href="#4">4</a>
+    </div>
+  </div>
+  <footer class="main-footer">
+        <div class="container">
+          <section class="footer-contacts">
+            Барбершоп «Бородинский»<br>
+            Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+            <a href="#">Как нас найти?</a><br>
+            Телефон: +7 (812) 666-02-66
+          </section>
+          <section class="footer-social">
+            <p>Давайте дружить!</p>
+            <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+            <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+            <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          </section>
+          <section class="footer-copyright">
+            <p>Разработано:</p>
+            <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+          </section>
+        </div>
+      </footer>
+    </body>
+  </html>
