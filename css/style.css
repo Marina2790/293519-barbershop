@@ -1,15 +1,17 @@
-body{
+body {
    font-size: 14px;
    line-height: 18px;
    color: #000000;
-   font-weight:bold;
-   font-family: PTSans, Arial, sans-serif;
-   }
- .title{
+   font-weight: bold;
+   font-family: PTSans,  Arial,  sans-serif;
+}
+
+ .title {
   font-size: 30px;
   line-height: 42px;
 }
-.list{
+
+.list {
   font-size: 24px;
   line-height: 30px;
 }
